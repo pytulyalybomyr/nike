@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="./slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="./slick/slick-theme.css" />
+    <title>Nike</title>
+</head>
+
+<body>
+    <img class="line" src="./img/line.webp" alt="">
+    <header class="header">
+        <img src="img/icon.webp" alt="">
+        <div class="header-block">
+            <h3 class="header-block_h3">Home</h3>
+            <h3 class="header-block_h3">Product</h3>
+            <h3 class="header-block_h3">About</h3>
+            <h3 class="header-block_h3">Review</h3>
+        </div>
+        <button class="button">Shop now</button>
+        <div class="footer-burger">
+            <img class="burger-open" src="./img/burger.svg" alt="" />
+
+            <div class="footer-burger__main hide">
+                <div class="footer-burger__main-img burger-close" id="burger-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M19.8334 8.16675L8.16675 19.8334M8.16675 8.16675L19.8334 19.8334" stroke="white"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <nav>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">Home</h2>
+                    </li>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">Product</h2>
+                    </li>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">About</h2>
+                    </li>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">Review</h2>
+                    </li>
+                </nav>
+                <div class="footer-burger-media">
+                    <ul class="footer-burger-media__nav">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M17.5 6.5H17.51" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M17.5 6.5H17.51" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M23 3.00005C22.0424 3.67552 20.9821 4.19216 19.86 4.53005C19.2577 3.83756 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.2845C14.0247 3.61176 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53005V8.53005C10.2426 8.57561 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 4.01032 5.43868 3 4.00005C3 4.00005 -1 13 8 17C5.94053 18.398 3.48716 19.099 1 19C10 24 21 19 21 7.50005C20.9991 7.2215 20.9723 6.94364 20.92 6.67005C21.9406 5.66354 22.6608 4.39276 23 3.00005Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <content class="content">
+        <div class="content-text">
+            <div class="content-text_h4">
+                <h4 style="margin-right: 14px;">Bring power to your steps</h4>
+                <img src="./img/nike.webp" alt="">
+            </div>
+            <h1 class="content-text_h1">Walk the line.</h1>
+            <h3 style="margin-top: 26px;" class="content-text_h3">Now that you have a ready strategy to move forward,
+                it’s time to come up with
+                some ideas.</h3>
+            <h3 style="margin-top: 10px;" class="content-text_h3">Now that you have a <span
+                    style="color: #5CBE3A;">ready strategy</span> to move
+                forward, </h3>
+            <h1 style="margin-top: 15px; margin-bottom: 35px" class="content-price">Price : $125 <span
+                    class="content-price_span">
+                    $169</span></h1>
+            <div class="buttons">
+                <button style="margin-right: 30px;" class="content-button">Shop now</button>
+                <button class="content-button2">Learn More</button>
+            </div>
+            <div class="review">
+                <div style="margin-right: 60px;" class="review_text">
+                    <h1 class="review_text-h1">70k</h1>
+                    <h3 class="review_text-h3">CUSTOMERS</h3>
+                </div>
+                <div class="review_text">
+                    <h1 class="review_text-h1">17k</h1>
+                    <h3 class="review_text-h3">REVIEW</h3>
+                </div>
+
+            </div>
+        </div>
+        <div class="content-img">
+            <img class="content-img_gren" src="./img/gren-shoes.webp" alt="">
+            <div class="navigation">
+                <div class="nav-block">
+                    <img class="nav" src="./img/radio-gren.webp" alt="">
+                </div>
+                <div class="nav-block">
+                    <img class="nav" src="./img/radio-red.webp" alt="">
+                </div>
+                <div class="nav-block">
+                    <img class="nav" src="./img/radio-black.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </content>
+    <content class="product">
+        <div class="product-block_text">
+            <h1 class="product-block_text-h1">Our Latest Product</h1>
+            <h3 class="product-block_text-h3">Now that you have a ready strategy to move forward, it’s time to come up
+                with
+                some ideas.</h3>
+        </div>
+        <div class="product-block_cards">
+            <div class="product-block_card">
+                <img src="./img/card1.webp" alt="">
+                <h2 class="product-block_card-h2">Aliquam lobortis</h2>
+                <img src="./img/card01.webp" alt="">
+                <h1 class="product-block_card-h1">$75.00 – $85.00</h1>
+                <button class="content-button2">Shop now</button>
+            </div>
+            <div class="product-block_card">
+                <img src="./img/card2.webp" alt="">
+                <h2 class="product-block_card-h2">FUSCE ALIQUAM</h2>
+                <img src="./img/card01.webp" alt="">
+                <h1 class="product-block_card-h1">$65.00 – $75.00</h1>
+                <button class="content-button2">Shop now</button>
+            </div>
+            <div class="product-block_card">
+                <img src="./img/card3.webp" alt="">
+                <h2 class="product-block_card-h2">AIR SUPERIORITY</h2>
+                <img src="./img/card01.webp" alt="">
+                <h1 class="product-block_card-h1">$35.00 – $45.00</h1>
+                <button class="content-button2">Shop now</button>
+            </div>
+        </div>
+    </content>
+    <content class="view">
+        <h1 class="view-h1">View</h1>
+        <div class="view-block">
+            <h1 class="view-block_h1">Telling your story with videos</h1>
+            <h3 class="view-block_h3">Now that you have a ready strategy to move forward, it’s time to come up with some
+                ideas.</h3>
+        </div>
+        <img class="view-block_img" src="./img/video.webp"></img>
+    </content>
+    <div class="shoes">
+        <img class="shoes-text_img" src="./img/sport-man.webp" alt="">
+        <div class="shoes-texts">
+            <img class="nike" src="./img/Vector.webp" alt="">
+            <h1 class="shoes-texts_h1">The best shoes for the best people.</h1>
+            <div class="shoes-text">
+                <img class="shoes-text_imgs" src="./img/nike-black.webp" alt="">
+                <h3 class="shoes-text_h3">Now that you have a ready strategy to move forward, it’s time to come up with
+                    some ideas.</h3>
+            </div>
+            <div class="shoes-text">
+                <img class="shoes-text_imgs" src="./img/nike-black.webp" alt="">
+                <h3 class="shoes-text_h3">Now that you have a ready strategy to move forward, it’s time to come up with
+                    some ideas.</h3>
+            </div>
+            <div class="shoes-text">
+                <img class="shoes-text_imgs" src="./img/nike-black.webp" alt="">
+                <h3 class="shoes-text_h3">Now that you have a ready strategy to move forward, it’s time to come up with
+                    some ideas.</h3>
+            </div>
+            <div class="shoes-text">
+                <img class="shoes-text_imgs" src="./img/nike-black.webp" alt="">
+                <h3 class="shoes-text_h3">Now that you have a ready strategy to move forward, it’s time to come up with
+                    some ideas.</h3>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="rectangle">
+        </div>
+        <h1 class="main-h1">2021</h1>
+        <div class="your-class">
+            <div class="div_div">
+                <h1 class="div_div-h1">Greatest Reviews</h1>
+                <div class="div_div-block">
+                    <img style="margin-left: 79px;" src="./img/boy.webp" alt="">
+                    <div class="block-ess">
+                        <div class="div_div-blocks">
+                            <div class="div_div-block_text">
+                                <h1 class="div_div-block_text-h1">Shahriar Sohag</h1>
+                                <h3 class="div_div-block_text-h3">Now that you have a ready strategy to move forward,
+                                    it’s time to come up with some ideas.
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="div_div-block_feedback">
+                            <img style="margin-right: 30px;" src="./img/card01.webp" alt="">
+                            <h1 class="div_div-block_feedback-h1">UI Designer</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom"></div>
+            </div>
+            <div class="div_div">
+                <h1 class="div_div-h1">Greatest Reviews</h1>
+                <div class="div_div-block">
+                    <img style="margin-left: 79px;" src="./img/boy.webp" alt="">
+                    <div class="block-ess">
+                        <div class="div_div-blocks">
+                            <div class="div_div-block_text">
+                                <h1 class="div_div-block_text-h1">Shahriar Sohag</h1>
+                                <h3 class="div_div-block_text-h3">Now that you have a ready strategy to
+                                    move forward,
+                                    it’s time to come up with some ideas.
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="div_div-block_feedback">
+                            <img style="margin-right: 30px;" src="./img/card01.webp" alt="">
+                            <h1 class="div_div-block_feedback-h1">UI Designer</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom"></div>
+            </div>
+            <div class="div_div">
+                <h1 class="div_div-h1">Greatest Reviews</h1>
+                <div class="div_div-block">
+                    <img style="margin-left: 79px;" src="./img/boy.webp" alt="">
+                    <div class="block-ess">
+                        <div class="div_div-blocks">
+                            <div class="div_div-block_text">
+                                <h1 class="div_div-block_text-h1">Shahriar Sohag</h1>
+                                <h3 class="div_div-block_text-h3">Now that you have a ready strategy to
+                                    move forward,
+                                    it’s time to come up with some ideas.
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="div_div-block_feedback">
+                            <img style="margin-right: 30px;" src="./img/card01.webp" alt="">
+                            <h1 class="div_div-block_feedback-h1">UI Designer</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-bottom"></div>
+            </div>
+        </div>
+        <button class="button-main">More Reciew</button>
+    </div>
+    <content class="start">
+        <div class="start-text">
+            <h1 class="start-h1">Get Started Now</h1>
+            <h3 class="start-h3">Now that you have a ready strategy to move forward, it’s time to come up with some
+                ideas.
+            </h3>
+            <button class="start-button">SUBESCRIBE</button>
+        </div>
+    </content>
+    <footer class="footer">
+        <img src="img/icon.webp" alt="">
+        <div class="footer-text">
+            <h3 class="footer-text_h3">Home</h3>
+            <h3 class="footer-text_h3">Product</h3>
+            <h3 class="footer-text_h3">About</h3>
+            <h3 style="margin-right: 0px;" class="footer-text_h3">Review</h3>
+        </div>
+        <div class="footer-follow">
+            <h1 class="footer-follow-h1">Follow Us: </h1>
+            <img class="footer-follow-img" src="./img/twit.webp" alt="">
+            <img class="footer-follow-img" src="./img/insta.webp" alt="">
+            <img class="footer-follow-img" src="./img/insta.webp">
+        </div>
+        <div class="footer-burger">
+            <img class="burger-open" src="./img/burger.svg" alt="" />
+
+            <div class="footer-burger__main hide">
+                <div class="footer-burger__main-img burger-close" id="burger-close">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 28 28" fill="none">
+                        <path d="M19.8334 8.16675L8.16675 19.8334M8.16675 8.16675L19.8334 19.8334" stroke="white"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <nav>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">Home</h2>
+                    </li>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">Product</h2>
+                    </li>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">About</h2>
+                    </li>
+                    <li>
+                        <h2 style="margin-right: 0;" class="footer-nav__h2 footer-text_h3">Review</h2>
+                    </li>
+                </nav>
+                <div class="footer-burger-media">
+                    <ul class="footer-burger-media__nav">
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M17 2H7C4.23858 2 2 4.23858 2 7V17C2 19.7614 4.23858 22 7 22H17C19.7614 22 22 19.7614 22 17V7C22 4.23858 19.7614 2 17 2Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path
+                                    d="M16 11.3701C16.1234 12.2023 15.9812 13.0523 15.5937 13.7991C15.2062 14.5459 14.5931 15.1515 13.8416 15.5297C13.0901 15.908 12.2384 16.0397 11.4077 15.906C10.5771 15.7723 9.80971 15.3801 9.21479 14.7852C8.61987 14.1903 8.22768 13.4229 8.09402 12.5923C7.96035 11.7616 8.09202 10.91 8.47028 10.1584C8.84854 9.40691 9.45414 8.7938 10.2009 8.4063C10.9477 8.0188 11.7977 7.87665 12.63 8.00006C13.4789 8.12594 14.2648 8.52152 14.8716 9.12836C15.4785 9.73521 15.8741 10.5211 16 11.3701Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                <path d="M17.5 6.5H17.51" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                                <path d="M17.5 6.5H17.51" stroke="white" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                        <li>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none">
+                                <path
+                                    d="M23 3.00005C22.0424 3.67552 20.9821 4.19216 19.86 4.53005C19.2577 3.83756 18.4573 3.34674 17.567 3.12397C16.6767 2.90121 15.7395 2.95724 14.8821 3.2845C14.0247 3.61176 13.2884 4.19445 12.773 4.95376C12.2575 5.71308 11.9877 6.61238 12 7.53005V8.53005C10.2426 8.57561 8.50127 8.18586 6.93101 7.39549C5.36074 6.60513 4.01032 5.43868 3 4.00005C3 4.00005 -1 13 8 17C5.94053 18.398 3.48716 19.099 1 19C10 24 21 19 21 7.50005C20.9991 7.2215 20.9723 6.94364 20.92 6.67005C21.9406 5.66354 22.6608 4.39276 23 3.00005Z"
+                                    stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-rectangle">
+        </div>
+
+
+    </footer>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+<script type="text/javascript" src="./slick/slick.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="../js/burger.js"></script>
+
+<script>
+    $('.your-class').slick({
+        arows: true,
+        dots: true,
+        infinite: true,
+        speed: 800,
+        slidesToShow: 1,
+        adaptiveHeight: true
+    });
+</script>
+
+</html>
